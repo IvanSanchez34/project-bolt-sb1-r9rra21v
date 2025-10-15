@@ -1,0 +1,25 @@
+{
+  "name": "ParishHub - Parish Management System",
+  "short_name": "ParishHub",
+  "description": "Complete parish management system for modern Catholic communities",
+  "theme_color": "#f59e0b",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "/",
+  "start_url": "/",
+  "icons": [
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='192' height='192' fill='%23f59e0b' viewBox='0 0 24 24'%3E%3Cpath d='M18 2a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h12zM7 9.5v7h2.5V9.5H7zm7.5 0v7H17V9.5h-2.5zM12 6a1 1 0 0 0-1 1v1.5h2V7a1 1 0 0 0-1-1z'/%3E%3C/svg%3E",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='512' height='512' fill='%23f59e0b' viewBox='0 0 24 24'%3E%3Cpath d='M18 2a2 2 0 0 1 2 2v16a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h12zM7 9.5v7h2.5V9.5H7zm7.5 0v7H17V9.5h-2.5zM12 6a1 1 0 0 0-1 1v1.5h2V7a1 1 0 0 0-1-1z'/%3E%3C/svg%3E",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    }
+  ],
+  "categories": ["productivity", "business"],
+  "lang": "en-US"
+}
