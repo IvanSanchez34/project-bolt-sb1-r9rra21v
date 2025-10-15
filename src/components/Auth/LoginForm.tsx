@@ -31,8 +31,9 @@ const LoginForm: React.FC = () => {
       setLoading(true);
       await signIn(data.email, data.password);
       toast.success('Welcome back!');
-    } catch (error: any) {
-      toast.error(error.message || 'Failed to sign in');
+  } catch (error: unknown) {
+  const errorMsg = typeof error === 'object' && error !== null && 'message' in error ? (error as any).message : 'Failed to sign in';
+  toast.error(errorMsg);
     } finally {
       setLoading(false);
     }

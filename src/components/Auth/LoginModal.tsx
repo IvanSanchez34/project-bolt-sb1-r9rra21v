@@ -49,8 +49,9 @@ const LoginModal: React.FC<LoginModalProps> = ({ isOpen, onClose }) => {
           navigate('/dashboard/');
         }
       }, 300);
-    } catch (error: any) {
-      toast.error(error.message || 'Error al iniciar sesión');
+  } catch (error: unknown) {
+  const errorMsg = typeof error === 'object' && error !== null && 'message' in error ? (error as any).message : 'Error al iniciar sesión';
+  toast.error(errorMsg);
     } finally {
       setLoading(false);
     }
